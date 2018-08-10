@@ -1,0 +1,131 @@
+.m-t-80{
+	margin-top: 80px;
+}
+.header{
+	font-size: 30px;
+	text-align: center;
+}
+.m-b-5{
+	margin-bottom: 5px;
+}
+.m-b-10{
+	margin-bottom: 10px;
+}
+.m-t-10{
+	margin-top: 10px;
+}
+body{
+	background-attachment: fixed;
+}
+.m-t-20{
+	margin-top: 20px;
+}
+.m-b-30{
+	margin-bottom: 30px;
+}
+.v-align-center{
+	vertical-align: middle;
+}
+.closeModal{
+	position: absolute;
+	right: -20px;
+	top: -15px;
+	text-align: right;
+	border: none;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+    padding-top: 0px;
+}
+.closeModal:hover {
+	cursor: pointer;
+}
+.closeModal:visited,.closeModal:active,.closeModal:target{
+	border: none;
+}
+.bk-transparent{
+    background-color: transparent;
+}
+.anim-button {
+  display: inline-block;
+  transform: skew(20deg);
+  width: 100%;
+  color: white;
+  border-top-width: 0px;
+  animation: rocking 2s infinite;
+  animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+  transition: .2s;
+  animation-direction: alternate;
+  font-size: 21px;
+}
+
+@keyframes rocking {
+	0% {
+	    transform: rotate(0deg);
+	}
+	25% {
+	    transform: rotate(0deg);
+	}
+	50% {
+	    transform: rotate(2deg);
+	}
+	75% {
+	    transform: rotate(-2deg);
+	}
+	100% {
+	    transform: rotate(0deg);
+	}
+}
+.card.modalcard{
+	margin-top: 100px;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 15px;
+    background-color: #3b5998;
+}
+.heading-modal{
+	width: 100%;
+}
+.modal-header{
+	border-bottom-width: 0px;
+}
+.disable{
+    cursor: not-allowed !important;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(235, 0, 0);
+    color: #fff;
+}
+b,strong{
+	font-weight: bolder;
+	text-shadow: 2px 2px 8px #b9b0b0;
+}
+.pointer{
+	cursor: pointer;
+	text-shadow: 2px 2px 8px #b9b0b0;
+	color: #4267b2;
+}
+.main-header{
+	color: #4549d0;
+}
+.below-header{
+	color: #de0c0c;
+}
+.card{
+	background-color: #ffffffa6;
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #4428e1;
+	box-shadow: 0 40px 158px 0 rgba(245, 244, 255, 0.62);
+}
+.btn-orange{
+	background-color: #f16122;
+	border-color: #f16122;
+}
+.m-t-40{
+	margin-top: 40px;
+}
